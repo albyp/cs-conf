@@ -29,6 +29,7 @@ Easy method for finding this data
 ### Launch Options
 Quick copy
 ```-high -novid -tickrate 128 -console -developer 1 +exec autoexec.cfg```
+
 |Parameter|Purpose|
 |-|-|
 |```-high```|Sets game to high priority in Task Manager|
