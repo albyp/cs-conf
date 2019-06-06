@@ -1,3 +1,4 @@
+
  <!-- What I need to add -- StackEdit to see how the README looks like -->
 <!--  -->
  <!-- Screenshot/gif for "Easy method for finding this data" -->
@@ -26,6 +27,8 @@ Easy method for finding this data
 
 
 ### Launch Options
+Quick copy
+```-high -novid -tickrate 128 -console -developer 1 +exec autoexec.cfg```
 |Parameter|Purpose|
 |-|-|
 |```-high```|Sets game to high priority in Task Manager|
@@ -33,9 +36,9 @@ Easy method for finding this data
 |```-tickrate 128```|Sets default update rate to 128 tick, will switch to 64 for comp/casual|
 |```-noborder```|Removes windowed borderless|
 |```-w 1920 -h 1080```|Resolution|
-|```-language English```|Incase Steam default isn't English|
 |```-console```|Opens console immediately after launching the game|
-|```-developer 1```|Console set to developer (better console)
+|```-developer 1```|Console set to developer (better console)|
+|```-insecure```|For testing the goods (no VAC)|
 >Note: Remember to add ```+exec autoexec.cfg```
 ___
 ## Bind Help
@@ -72,11 +75,16 @@ Steam Guide for Scripts, Binds and Configs
 - Alt aliases for grenades (Alt+1 = HE, Alt+2 = Flashbang etc.)
 - Jump throw
 - Crouch throw
+- Clutch mode which notifies team when muted / unmuted
 
 ## Sources
 |Content|Source|
 |:-|:-|
 |Game Volume|[Gatlin Newhouse/CSGO-configs][]|
+
+## Extras
+Gist used in index.html
+[Gist: autoexec.cfg](https://gist.github.com/albyp/1045efe61a192de993962a7a4c62680e#file-autoexec-cfg)
 
 <!-- Links -->
 [Gatlin Newhouse/CSGO-configs]: https://github.com/gatlinnewhouse/CSGO-configs/
